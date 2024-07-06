@@ -1,0 +1,106 @@
+body {
+    background: url(https://acraft.com.br/wp-content/uploads/2018/07/Tracker-de-h%C3%A1bitos-listas-planner-bullet-journal-3.png);
+    justify-content: center ;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0a86e6;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+}
+
+.container {
+    background-color: #aa4588;
+    padding:  20px;
+    border: 2px solid #fdfafa;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #031433;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #236baa;
+    box-shadow: 2px 2px 5px #dddcdf;
+    border: solid 2px aliceblue;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #491778;
+}
+
+#button-clear {
+    background-color: #dc3545;
+}
+
+#button-clear:hover {
+    background-color: #c82333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom:1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f1f1f1;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: rgb(65, 3, 65);
+}
+
+.line-through span {
+    text-decoration: line-through;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-btn:hover{
+    background-color: #c82333;
+}
